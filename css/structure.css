@@ -130,11 +130,47 @@ span {
 
 .section {
 	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border: 1px solid yellowgreen;
 }
+
+.content{ padding: 23% 0% 0% 23%}
 
 .col-info, .col-img {
 	width: 50%;
 }
+
+/* .info h2, .info h3, .info h4, .info p{ color: #f7f6f6} */
+.info h2{font-size:28px; border-bottom: 2px solid;}
+.info h3{font-size:15px}
+.info h4{font-size:12px}
+.info p{ font-size:15px; padding: 12px 0px 0px 0px; text-align: justify}
+
+
+
+.info.square span{
+	width: 100%;
+	font-size: 15px;
+}
+
+.info.square.light h2{color: #ffffff}
+.info.square.light h3{color: #ffffff}
+.info.square.light p{color: #ffffff}
+
+
+.info.titles h2, .info.titles h3{color: black}
+.info.titles h3{border-bottom: 2px solid; padding: 5px 0px 5px 0px}
+
+
+.info.list-bullets p{color: #000000;}
+.info.list-bullets ul li{
+	padding: 0px 0px 0px 56px;
+	margin: 10px 0px 17px 0px;
+	background: transparent url('../img/recortes-25.png') left top no-repeat;
+	background-size: 20px;}
+.info.list-bullets ul li h3{color: black}
+
+
 
 .head {}
 
@@ -169,11 +205,10 @@ span {
 	padding: 0px 30px 0px 0px;
 }
 
-.section.banner {}
 
 .banner .text {
 	width: auto;
-	z-index: 1;
+	/* z-index: 1; */
 	position: absolute;
 	top: 50%;
 	left: 15%;
@@ -192,9 +227,11 @@ span {
 	font-size: 24px;
 }
 
-.banner img {
-	width: 100%;
+
+.media-banner{
+	border: 1px solid red;
 }
+
 
 .section.quienes {
 	background: transparent url('../img/AboutUS.jpg') center center no-repeat;
@@ -208,23 +245,6 @@ span {
 	min-height: 800px;
 }
 
-.quienes h2 {
-	font-size: 48px;
-}
-
-.quienes h3 {
-	font-size: 24px;
-}
-
-.quienes h2, h3, p {
-	color: #ffffff;
-}
-
-.quienes p {
-	padding: 10px 0px 0px 0px;
-	font-size: 18px;
-	text-align: justify;
-}
 
 .quienes .div-circle {
 	background: gray;
@@ -239,19 +259,8 @@ span {
 	left: 16px;
 }
 
-.beneficios {}
+.section.beneficios .content{ padding: 23% 0% 0% 23%}
 
-.beneficios h3 {
-	color: #000000;
-}
-
-.beneficios .col-info {
-	padding: 0px 20px 0px 146px;
-}
-
-.beneficios .col-info .title {
-	color: aqua
-}
 
 .beneficios .col-img {
 	background: transparent url('../img/benefits.jpg') center center no-repeat;
@@ -265,43 +274,36 @@ span {
 	background-size: 20px;
 }
 
-.productos {}
 
 .productos .col-img {
-	background: transparent url('../img/tarjeta-de-credito.png') center top no-repeat;
+	background: transparent url('../img/tarjeta-de-credito.png') center center no-repeat;
 	min-height: 500px;
 	background-size: contain;
 }
 
-.productos p {
-	color: #000000;
+.productos .content {
+    padding: 6% 23% 8% 22%;
 }
 
-.productos .descripcion {
-	padding: 100px 200px 100px 200px;
+.productos .content.square{
+	padding: 6% 23% 8% 22%;
+	background: transparent url('../img/recortes-16.png') center center no-repeat;
+	background-size: contain;
 }
 
-.productos .img-producto {
-	border: 1px solid red;
-	width: auto;
+.productos .info.square{
+	padding: 28% 15% 26% 14%;
+	margin: 10% 0% 0% 0%;
 }
-
-.productos .img-producto {
-	border: 1px solid red;
-	width: auto;
-}
+.productos .info.square h2, .productos .info.square span{text-align:right}
 
 .productos .lista-beneficios {
-	border: 1px solid blue;
-	width: 60%;
-	float: right;
+    width: 60%;
+    float: right;
 }
 
-.productos .lista-beneficios li {
-	padding: 0px 0px 0px 56px;
-	margin: 0px 0px 17px 0px;
-	background: transparent url('../img/recortes-25.png') left center no-repeat;
-	background-size: 20px;
+.productos .img-producto {
+    width: 30%;
 }
 
 .btn-menu {
