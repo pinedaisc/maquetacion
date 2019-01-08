@@ -1,0 +1,312 @@
+@font-face {
+	font-family: 'OpenSansLight';
+	src: url('../../../webfonts/OpenSans/opensans-light-webfont.eot');
+	src: url('../../../webfonts/OpenSans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../../webfonts/OpenSans/opensans-light-webfont.svg#CrimsonRoman') format('svg'), url('../../../webfonts/OpenSans/opensans-light-webfont.woff') format('woff'), url('../../../webfonts/OpenSans/opensans-light-webfont.ttf') format('truetype');
+	/*    src:url(../fonts/OpenSans-Light.ttf) format('truetype');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('../../../webfonts/OpenSans/opensans-regular-webfont.eot');
+	src: url('../../../webfonts/OpenSans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../../webfonts/OpenSans/opensans-regular-webfont.svg#CrimsonRoman') format('svg'), url('../../../webfonts/OpenSans/opensans-regular-webfont.woff') format('woff'), url('../../../webfonts/OpenSans/opensans-regular-webfont.ttf') format('truetype');
+	/*src:url(../fonts/OpenSans-Regular.ttf)  format('truetype'); */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansMedium';
+	src: url('../../../webfonts/OpenSans/opensans-semibold-webfont.eot');
+	src: url('../../../webfonts/OpenSans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../../../webfonts/OpenSans/opensans-semibold-webfont.svg#CrimsonRoman') format('svg'), url('../../../webfonts/OpenSans/opensans-semibold-webfont.woff') format('woff'), url('../../../webfonts/OpenSans/opensans-semibold-webfont.ttf') format('truetype');
+	/*src:url(../fonts/OpenSans-Semibold.ttf) format('truetype');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, small, sub, b, dl, dd, dt, ul, li, label, article, details, footer, header, menu, nav, input, textarea, select {
+	background: transparent;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	color: #4A4A4A;
+	font-family: 'RobotoLight', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: left;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input, textarea {
+	-webkit-user-select: auto;
+	-moz-user-select: auto;
+	-o-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+}
+
+* html .clearfix {
+	zoom: 1;
+}
+
+/* IE6 */
+
+*:first-child+html .clearfix {
+	zoom: 1;
+}
+
+/* IE7 */
+
+html, body {
+	height: 100%;
+	-webkit-tap-highlight-color: #f7f6f6;
+}
+
+html, body, table {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+html, body, a, img {
+	float: none;
+	width: initial;
+}
+
+span {
+	width: auto;
+	display: inline-block;
+	float: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.container {
+	border: red solid 0px;
+	text-align: center;
+}
+
+.limits {
+	float: none;
+	display: inline-block;
+	max-width: 1280px;
+	min-width: 320px;
+}
+
+.section {
+	padding: 10px 0px 10px 0px;
+}
+
+.col-info, .col-img {
+	width: 50%;
+}
+
+.head {}
+
+.head .logo {
+	width: 180px;
+	height: 40px;
+	padding: 21px 0px 0px 10px;
+}
+
+.head .logo img {
+	width: 100%;
+}
+
+.head .menu {
+	width: auto;
+	padding: 21px 0px 0px 110px;
+}
+
+.head .menu li {
+	width: auto;
+	padding: 0px 30px 0px 0px;
+}
+
+.head .login {
+	float: right;
+	width: auto;
+	padding: 8px 0px 0px 0px;
+}
+
+.head .login li {
+	width: auto;
+	padding: 0px 30px 0px 0px;
+}
+
+.section.banner {}
+
+.banner .text {
+	width: auto;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+}
+
+.banner .text .title {
+	color: #ffffff;
+	text-align: center;
+	font-size: 48px;
+	padding: 0px 0px 20px 0px;
+}
+
+.banner .text .subtitle {
+	color: #ffffff;
+	text-align: center;
+	font-size: 24px;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.section.quienes {
+	background: transparent url('../img/AboutUS.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.quienes .col-info {
+	padding: 120px 134px 80px 134px;
+	background: transparent url('../img/recortes-08.png') center center no-repeat;
+	background-size: contain;
+	min-height: 800px;
+}
+
+.quienes h2 {
+	font-size: 48px;
+}
+
+.quienes h3 {
+	font-size: 24px;
+}
+
+.quienes h2, h3, p {
+	color: #ffffff;
+}
+
+.quienes p {
+	padding: 10px 0px 0px 0px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.quienes .div-circle {
+	background: gray;
+	width: 450px;
+	height: 450px;
+	border-radius: 218px;
+	top: 233px;
+}
+
+.col-img img {
+	top: 64px;
+	left: 16px;
+}
+
+.beneficios {}
+
+.beneficios h3 {
+	color: #000000;
+}
+
+.beneficios .col-info {
+	padding: 0px 20px 0px 146px;
+}
+
+.beneficios .col-info .title {
+	color: aqua
+}
+
+.beneficios .col-img {
+	background: transparent url('../img/benefits.jpg') center center no-repeat;
+	min-height: 800px
+}
+
+.beneficios .col-info .lista-beneficios li {
+	padding: 0px 0px 0px 56px;
+	margin: 0px 0px 17px 0px;
+	background: transparent url('../img/recortes-25.png') left center no-repeat;
+	background-size: 20px;
+}
+
+.productos {}
+
+.productos .col-img {
+	background: transparent url('../img/tarjeta-de-credito.png') center top no-repeat;
+	min-height: 500px;
+	background-size: contain;
+}
+
+.productos p {
+	color: #000000;
+}
+
+.productos .descripcion {
+	padding: 100px 200px 100px 200px;
+}
+
+.productos .img-producto {
+	border: 1px solid red;
+	width: auto;
+}
+
+.productos .img-producto {
+	border: 1px solid red;
+	width: auto;
+}
+
+.productos .lista-beneficios {
+	border: 1px solid blue;
+	width: 60%;
+	float: right;
+}
+
+.productos .lista-beneficios li {
+	padding: 0px 0px 0px 56px;
+	margin: 0px 0px 17px 0px;
+	background: transparent url('../img/recortes-25.png') left center no-repeat;
+	background-size: 20px;
+}
+
+.btn-menu {
+	border: none;
+	color: #ffffff;
+	background: #051d49;
+	padding: 13px 15px 15px 13px;
+}

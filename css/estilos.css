@@ -1,0 +1,46 @@
+.quienes{background: transparent url('../img/AboutUS.jpg') center center no-repeat; background-size:cover; padding: 50px 50px 50px 50px;}
+    .quienes .col-info{width: 45%; padding: 40px 40px 40px 40px; background: transparent url('../img/recortes-11.png') center center no-repeat; background-size:cover;}
+    .quienes .col-info .title {color: #ffffff; font-size: 24px; text-align: left;}
+    .quienes .col-info .title span{font-size: 48px; display:block;}
+    .quienes .col-info p{color:#ffffff; font-size: 20px; text-align: justify; padding: 0px 0px 15px 0px;}
+
+    .quienes .col-img {width: 50%;}
+    .quienes .col-img .div-circle{width: 450px; height: 450px; padding: 50px 0px 0px 0px; margin: 0px 0px 0px 100px; text-align:center; border-radius: 50%; background: gray;}
+
+.beneficios{padding: 100px 0px 0px 0px;}
+    
+    .beneficios .col-img{border: 1px solid red; background: transparent url('../img/benefits.jpg') center center no-repeat; background-size:cover; height: auto;}
+    .beneficios .col-info{width: 50%; float: right; padding: 0px 50px 0px 50px; }
+
+        .beneficios .col-info .box-title{padding: 0px 50px 0px 0px;}
+        .beneficios .col-info ul li img{width: 17px}
+        .col-info .box-title .title{color: blue; font-size: 48px; text-align: left;}
+        .col-info .box-title p{color: #4A4A4A; font-size: 35px; text-transform:uppercase; text-align: left;}
+        .col-info .box-title hr{color: blue; background-color: blue solid 1px}
+
+        .beneficios .col-info .subtitle {width: auto; color:blue; padding: 0px 0px 0px 15px;}
+        .beneficios .col-info .text{width: auto; color: #000000; padding: 0px 0px 0px 35px;}
+        .beneficios .col-info img{float: left;}
+
+.productos{}
+    .productos .col-img{width:50%; min-height: 500px; background: transparent url('../img/tarjeta-de-credito.png') left top no-repeat;}    
+
+    .productos .col-info{width:50%; float: left; padding: 0px 50px 0px 50px;}
+    .productos .col-info .box-producto {}
+    .productos .col-info .box-producto .wrap-producto {padding: 0px 100px 0px 100px;}
+    .productos .col-info .box-producto .title {font-size: 48px; display:block; text-align: right;}
+    .productos .col-info .box-producto .subtitle{ font-size: 24px; text-align: right;}
+    .productos .col-info .box-producto p{font-size: 20px; text-align: justify; padding: 20px 0px 0px 0px;}
+
+    .producto-beneficios .beneficios .col-info .img{width:20px; height: 20px; border: 1px solid borderred; background: transparent url('../img/recortes-25.png') center center no-repeat;}
+    .producto-beneficios .beneficios .col-info .title {font-size: 24px; text-transform: uppercase;color: grey}
+    .producto-beneficios .beneficios .col-info .text {font-size: 20px;color: navy; padding: 0px 0px 0px 20px;}
+/* La opcacidad del fondo no me funciona*/
+.overlay{opacity: 0.5%; position: absolute; height: 100%; z-index: 1; }
+
+.login button {
+    padding: 10px 20px 10px 20px;
+    border: none;        
+    background:navy;
+    color: gray;
+}
