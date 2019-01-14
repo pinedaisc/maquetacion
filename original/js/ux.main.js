@@ -36,7 +36,7 @@
 			modal = '';
 		methods = {
 			init: function(){
-				methods.creaModal();
+				// methods.creaModal();
 			},
 			abreMenu:function(){
 				
