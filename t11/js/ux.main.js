@@ -36,6 +36,7 @@
 			modal = '';
 		methods = {
 			init: function(){
+				methods.cliclit();
 				methods.tooltip();
 				methods.radios();
 				methods.abreMenu();
@@ -45,6 +46,11 @@
 				});
 				
 				
+			},
+			cliclit:function(){
+				$(document).click(function(e) {
+					console.log("cliclit-_:" + e.target.className)
+				  });
 			},
 			radios:function(){
 					var c = '<button class="checkStars">ETIQUETA</button>'
