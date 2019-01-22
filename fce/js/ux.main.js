@@ -52,9 +52,17 @@
 				
 				$BODY.append(modal);	
 			},
+			
 			buscar:function(){
-				$('.search').on('click', function(e){
-					alert('busqueda...')
+				$BODY.on('click', 'ul li', function(e){
+					var t = $(this);
+					if(t.find('.submenu').length > 0){
+						$('.SbMenu').hide();
+						t.find('.submenu').show();
+					}else{
+						$('.submenu').hide();
+					}
+					
 				})	
 			}
 		}	
