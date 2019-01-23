@@ -104,26 +104,26 @@ html, body,a,img{ float:none; width:initial;}
 	.box a{position: absolute; top: 0px; left: 0px; width:100%; height: 100%;}
 	.box img{background: gray; width: 100%; height: auto;}
 
-	.social{padding: 5px}
-	.social ul{width:100%; }
-	.social ul li{text-align: center; width: 25px; height: 25px; border: 2px solid; border-radius: 100%; margin: 5px 5px 0px 5px}
+	.social{padding: 5px 5px 5px 5px;}
+	.social ul{text-align: center;}
+	.social ul li{float: none; display:inline-block; text-align: center; width: 25px; height: 25px; border: 2px solid; border-radius: 100%; margin: 5px 5px 5px 5px;}
 
 /*SECCIONES*/
 .section{border: 0px solid red;  padding: 0px 25px 0px 25px; }
 
 .section.header{text-align: center;padding: 10px 0px 0px 0px}
-	.header .brand img{width: 200px; height: auto; padding: 0px 0px 0px 20px} 
-	.header .menu{width:100%; padding: 10px; margin: 10px 0px 5px 0px; background: black;}
-	.header .menu ul{width:100%; }
-	.header .menu ul li{width: auto; padding: 0px 4% 0px 4%;}
+	.header .brand img{width: 300px; height: auto; padding: 0px 0px 0px 20px} 
+	.header .menu{padding: 10px; margin: 10px 0px 5px 0px; background: black;}
+	.header .menu ul{text-align: center;}
+	.header .menu ul li{float:none; display: inline-block; width: auto; padding: 0px 4% 0px 4%;}
 	.header .menu ul li .drop-icon{width: 0;height: 0; border-style:solid; border-width: 5px 4px 0 4px; border-color: #fafafa transparent transparent transparent; float: right; top:10px;}
 	.header .menu ul li a{color: white}
 	.header .menu ul li nav.submenu{top: 27px;background: white;width: auto;position: absolute;border: 2px solid black;}
 
-	.header nav.left{position: absolute; float: right; right: 25px}
+	.header .left{position: absolute; float: right; right: 25px; width: 220px;}
 	
-	.header .social{width: auto; float: right;}
-	.header .buscador{width: auto;float: right;}
+	.header .social{}
+	.header .buscador{text-align: center;}
 
 	.header nav.submenu {padding: 0px 10px 0px 10px; display:none; z-index: 2}
 	.header nav.submenu ul li {padding: 0px 0px 0px 0px; width: auto;}
@@ -139,18 +139,17 @@ html, body,a,img{ float:none; width:initial;}
 	.transparencia .w50{padding:40px 40px 0px 0px}
 	.transparencia select{border: 1px solid; width:300px; height: 50px;}
 
-	.footer .social{padding: 20px 0px 20px 42%;}
-	.footer .social ul li{float:left; text-align: center;}
-	.footer .links{padding: 30px 0px 30px 15%; background:lightgray; color: black; text-align: center;}
-	.footer .links ul li{ text-align: center; width: auto; padding: 0px 2% 0px 0px}
+	.footer .links{padding: 30px 0px 30px 0px; background:lightgray; color: black;}
+	.footer .links ul{text-align: center}
+	.footer .links ul li{float: none; display: inline-block; width: auto; padding: 0px 4% 0px 0px}
 	.footer .cpr{padding: 20px 0px 20px 0px;background: gray;}
 
 
 	
 	
 /*COMPONENTES*/
-	.buscador input{border: 1px solid gray; width: auto;}
-	.buscador button{border: none; border-radius: 0px; height: 21px;}
+	.buscador input{border: 1px solid gray; width: auto; float: none; height: 32px;}
+	.buscador button{border: none; border-radius: 0px; height: 32px;}
 	.link-tienda{width: 100px; height: 50px; background:red; position: fixed; bottom: 100px; left: 12px; color: white; font-weight: bold; z-index: 666; padding:5px}
 /*MODALES*/
 .overlay { background:#000; opacity:0.9	; position:fixed; z-index:98; top:0px; left:0px; height:100%;}
