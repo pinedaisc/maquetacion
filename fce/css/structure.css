@@ -99,9 +99,13 @@ html, body,a,img{ float:none; width:initial;}
 .lmts{ max-width:1280px; min-width:300px; border:dashed 0px red; float:none; display:inline-block; padding:0px 0% 0px 0%}
 
 /* MODULOS */
-	.box {min-height:363px; text-align: center;  background: #ddd7cd}
+	/* .box {min-height:363px; text-align: center;  background: #ddd7cd} */
 	.box h1.title {text-align: center;padding: 10px 0px 20px 0px;}
-	.box img{right: 0px; bottom: 0px; width: 100%}
+	/* .box img{right: 0px; bottom: 0px; width: 100%} */
+	.box{text-align: right;}
+	.box img {width: 100%;vertical-align: middle; height: 270px;}
+
+
 
 	.social{padding: 5px 5px 5px 5px;}
 	.social ul{text-align: center;}
