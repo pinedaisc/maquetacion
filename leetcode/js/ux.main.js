@@ -3,7 +3,7 @@
 	function init() {
 		initComponents();
 		initEvents();
-		bloquearClicks();
+		// bloquearClicks();
 
 
 	}
