@@ -10,3 +10,11 @@ function addCommas(nStr) {
     }
     return x1 + x2;
 }
+
+function numberToPhone(number) {
+	if (number) {
+		return number.replace(/\D+/g, "").replace(/([0-9]{2})([0-9]{4})([0-9]{4}$)/gi, "$1-$2-$3");
+	} else {
+		return "";
+	}
+};
